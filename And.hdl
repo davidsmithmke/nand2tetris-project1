@@ -14,5 +14,5 @@ CHIP And {
 
     PARTS:
     Nand(a=a, b=b, out=nandab);
-    Nand(a=nandab, b=true, out=out);
+    Nand(a=nandab, b=nandab, out=out);
 }
